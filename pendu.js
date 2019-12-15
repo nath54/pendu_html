@@ -86,6 +86,7 @@ function lettre(l){
         }
         if(gagne){
             alert("Vous avez Gagné !");
+            alert("L'indice était : "+indice);
             fini=true;
         }
     }
