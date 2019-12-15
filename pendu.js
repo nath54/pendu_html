@@ -1,7 +1,7 @@
-
-var mot=mots[parseInt(Math.random()*mots.length)][0];
-var indice=mots[parseInt(Math.random()*mots.length)][1];
-var theme=mots[parseInt(Math.random()*mots.length)][2];
+var di=parseInt(Math.random()*mots.length)
+var mot=mots[di][0];
+var indice=mots[di][1];
+var theme=mots[di][2];
 var lmot=Array.from(mot);
 document.getElementById("theme").innerHTML="Theme : "+theme;
 var lettres_fausses=[];
