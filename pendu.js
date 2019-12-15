@@ -99,6 +99,7 @@ function restart(){
     document.getElementById("theme").innerHTML="Theme : "+theme;
     lettres_fausses=[];
     lettres_trouvees=[];
+    lettres_jouees=[];
 
     for(x=0;x<lmot.length;x++){
         if(lmot[x]=="-") lettres_trouvees.push(true);
