@@ -27,7 +27,16 @@ const mots=[
     ["MODEM","Matériel permettant aux ordinateurs de communiquer par l'intermédiaire du réseau téléphonique.","Informatique"],
     ["PASSWORD","Il permet de protéger le login qui lui est associé.","Informatique"],
     ["PIXEL"," Le plus petit élément composant une image numérique ou l'affichage de votre écran.","Hardware"],
-    ["VIRUS"," Programme dont l'objectif est de se disséminer et d'infecter le plus de machines possible.","Informatique"]
+    ["VIRUS"," Programme dont l'objectif est de se disséminer et d'infecter le plus de machines possible.","Informatique"],
+    ["NUCLEONS","Particules composant le noyau d'un atome","Physique"],
+    ["PROTON","charge positive d'un atome","Physique"],
+    ["NEUTRON","composant neutre d'un atome","Physique"],
+    ["ELECTRON","charge negative d'un atome","Physique"],
+    ["POSITRON","anti particule de l'electron","Physique"],
+    ["ATOME","La plus petite unite structurale de la matière","Physique"],
+    ["VOITURE","L'une des premieres causes de pollution de l'air, et de décès dans le monde","Société"],
+    ["GREVE","Ce que les Francais aiment faire le mieux","SOCIETE"],
+    ["PRESIDENT","Chef de l'Etat","SOCIETE"],
 ];    
 
 //    MOT                  Indice                                               Thème

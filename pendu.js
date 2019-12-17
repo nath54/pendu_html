@@ -93,9 +93,10 @@ function lettre(l){
 }   
 
 function restart(){
-    mot=mots[parseInt(Math.random()*mots.length)][0];
-    indice=mots[parseInt(Math.random()*mots.length)][1];
-    theme=mots[parseInt(Math.random()*mots.length)][2];
+    di=parseInt(Math.random()*mots.length)
+    mot=mots[di][0];
+    indice=mots[di][1];
+    theme=mots[di][2];
     lmot=Array.from(mot);
     document.getElementById("theme").innerHTML="Theme : "+theme;
     lettres_fausses=[];
